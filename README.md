@@ -1,4 +1,4 @@
-# ImageSearch
+# my-vision-app
 repository layout
 my-vision-app/
 ├── main.py
