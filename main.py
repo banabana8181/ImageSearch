@@ -5,6 +5,10 @@ from PIL import Image
 import io
 
 app = FastAPI()
+
+@app.get("/")
+def root():
+    return {"message": "Hello from Cloud Run!"}
 client = vision.ImageAnnotatorClient()
 
 @app.post("/process")
