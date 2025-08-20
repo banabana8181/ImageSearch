@@ -47,3 +47,6 @@ steps:
 
 images:
   - gcr.io/$PROJECT_ID/my-vision-app
+
+options:
+  logging: CLOUD_LOGGING_ONLY
